@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A5FC9"/>
+      <stop offset="100%" stop-color="#4A76E5"/>
+    </linearGradient>
+    <linearGradient id="bell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <rect width="800" height="800" rx="160" fill="url(#bg)"/>
+
+  <!-- Notification bell icon -->
+  <g transform="translate(400, 380)">
+    <!-- Bell body -->
+    <path d="M0,-120 C-70,-120 -100,-60 -100,0 L-100,30 C-100,50 -115,70 -140,80 L140,80 C115,70 100,50 100,30 L100,0 C100,-60 70,-120 0,-120Z"
+          fill="url(#bell)" opacity="0.95"/>
+
+    <!-- Bell top knob -->
+    <circle cx="0" cy="-130" r="18" fill="url(#bell)" opacity="0.95"/>
+
+    <!-- Bell bottom opening -->
+    <path d="M-60,80 C-50,120 -40,130 0,130 C40,130 50,120 60,80"
+          fill="none" stroke="url(#bell)" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- Notification dot -->
+    <circle cx="120" cy="-100" r="35" fill="#FF6B6B">
+      <animate attributeName="r" values="35;42;35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="120" y="-88" text-anchor="middle" fill="white" font-size="32" font-weight="bold" font-family="sans-serif">1</text>
+  </g>
+
+  <!-- "Gotify" label -->
+  <text x="400" y="620" text-anchor="middle" fill="white" font-size="64" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" letter-spacing="4">Gotify</text>
+</svg>

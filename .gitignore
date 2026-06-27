@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+
+# Docker
+.docker/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Generated / runtime
+data/
+tmp/
+*.log

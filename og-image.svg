@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1B1E"/>
+      <stop offset="100%" stop-color="#25262B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C3FC5"/>
+      <stop offset="50%" stop-color="#4A76E5"/>
+      <stop offset="100%" stop-color="#3A5FC9"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6C3FC5"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative gradient bar at top -->
+  <rect width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="100" r="300" fill="#4A76E5" opacity="0.06"/>
+  <circle cx="150" cy="500" r="250" fill="#6C3FC5" opacity="0.04"/>
+
+  <!-- Notification bell icon (simplified) -->
+  <g transform="translate(100, 315)">
+    <path d="M0,-70 C-45,-70 -65,-35 -65,0 L-65,20 C-65,35 -75,48 -90,55 L90,55 C75,48 65,35 65,20 L65,0 C65,-35 45,-70 0,-70Z"
+          fill="#4A76E5" opacity="0.9"/>
+    <circle cx="0" cy="-78" r="12" fill="#4A76E5" opacity="0.9"/>
+    <path d="M-36,55 C-30,85 -22,93 0,93 C22,93 30,85 36,55"
+          fill="none" stroke="#4A76E5" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="600" y="240" text-anchor="middle" fill="white" font-size="82" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" letter-spacing="3">Gotify</text>
+
+  <!-- Tagline -->
+  <text x="600" y="310" text-anchor="middle" fill="#B0B8C8" font-size="30" font-family="system-ui, -apple-system, sans-serif" letter-spacing="1">Self-hosted Notification Server</text>
+
+  <!-- Divider line -->
+  <line x1="450" y1="355" x2="750" y2="355" stroke="#3A3D45" stroke-width="1"/>
+
+  <!-- Feature pills -->
+  <g transform="translate(600, 400)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#8890A0">
+    <rect x="-160" y="-18" width="140" height="36" rx="18" fill="#2D2F35"/>
+    <text x="-90" y="5" fill="#C8CCD8">Push Notifications</text>
+
+    <rect x="-10" y="-18" width="120" height="36" rx="18" fill="#2D2F35"/>
+    <text x="50" y="5" fill="#C8CCD8">REST API</text>
+
+    <rect x="120" y="-18" width="110" height="36" rx="18" fill="#2D2F35"/>
+    <text x="175" y="5" fill="#C8CCD8">CLI & WebUI</text>
+  </g>
+
+  <!-- Deploy on Railway badge -->
+  <g transform="translate(600, 510)">
+    <rect x="-140" y="-30" width="280" height="60" rx="30" fill="url(#badge)"/>
+    <text x="0" y="8" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="system-ui, -apple-system, sans-serif" letter-spacing="2">Deploy on Railway</text>
+  </g>
+
+  <!-- Corner decoration - lightning bolt (subtle) -->
+  <path d="M1130,50 L1160,50 L1145,90 L1175,90 L1110,145 L1125,95 L1095,95 Z"
+        fill="#6C3FC5" opacity="0.08"/>
+</svg>
