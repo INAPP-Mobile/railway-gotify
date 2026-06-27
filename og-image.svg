@@ -52,7 +52,7 @@
     <text x="50" y="5" fill="#C8CCD8">REST API</text>
 
     <rect x="120" y="-18" width="110" height="36" rx="18" fill="#2D2F35"/>
-    <text x="175" y="5" fill="#C8CCD8">CLI & WebUI</text>
+    <text x="175" y="5" fill="#C8CCD8">CLI &amp; WebUI</text>
   </g>
 
   <!-- Deploy on Railway badge -->
