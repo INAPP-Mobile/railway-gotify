@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="https://railway.com/template/gotify"><img src="https://img.shields.io/badge/Deploy%20on-Railway-%236C3FC5?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy on Railway"></a>
+  <a href="https://railway.app/template/gotify"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
   <a href="https://github.com/gotify/server"><img src="https://img.shields.io/github/stars/gotify/server?style=for-the-badge&logo=github&label=GitHub" alt="GitHub Stars"></a>
   <a href="https://github.com/gotify/server/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gotify/server?style=for-the-badge" alt="License"></a>
 </p>
@@ -41,7 +41,7 @@
 
 ### One-Click Deploy
 
-[![Deploy on Railway](https://img.shields.io/badge/Deploy%20on-Railway-%236C3FC5?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com/template/gotify)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/gotify)
 
 Click the button above to deploy Gotify instantly on Railway.
 
