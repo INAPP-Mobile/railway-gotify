@@ -1,26 +1,26 @@
-[
-  {
+{
+  "GOTIFY_SERVER_PORT": {
     "value": "8080",
     "description": "Port Gotify listens on (default: 8080). Railway injects PORT for routing."
   },
-  {
+  "GOTIFY_DEFAULTUSER_NAME": {
     "value": "admin",
     "description": "Default admin username for the Gotify web UI."
   },
-  {
+  "GOTIFY_DEFAULTUSER_PASS": {
     "value": "${{secret(24)}}",
-    "description": "Default admin password. Auto-generated on first deploy — change after setup."
+    "description": "Default admin password. Auto-generated on first deploy \u2014 change after setup."
   },
-  {
+  "GOTIFY_DATABASE_DIALECT": {
     "value": "sqlite3",
     "description": "Database engine: sqlite3, mysql, or postgres. SQLite is built-in and automatic."
   },
-  {
+  "GOTIFY_DATABASE_CONNECTION": {
     "value": "data/gotify.db",
     "description": "Database connection string. For SQLite: data/gotify.db. For Postgres: ${{Postgres.DATABASE_URL}}"
   },
-  {
+  "GOTIFY_REGISTRATION": {
     "value": "false",
-    "description": "Allow public user registration (true/false). Default is false — disable to prevent open signups."
+    "description": "Allow public user registration (true/false). Default is false \u2014 disable to prevent open signups."
   }
-]
+}

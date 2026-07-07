@@ -5,13 +5,13 @@
 </div>
 
 <p align="center">
-  <a href="https://railway.app/template/gotify"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
+  <a href="https://railway.com/new/template/gotify"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
   <a href="https://github.com/gotify/server"><img src="https://img.shields.io/github/stars/gotify/server?style=for-the-badge&logo=github&label=GitHub" alt="GitHub Stars"></a>
   <a href="https://github.com/gotify/server/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gotify/server?style=for-the-badge" alt="License"></a>
 </p>
 
 <div align="center">
-  <img src="./og-image.svg" alt="Gotify Deploy on Railway" width="600">
+  <img src="https://raw.githubusercontent.com/INAPP-Mobile/railway-gotify/main/og-image.svg" alt="Gotify Deploy on Railway" width="600">
 </div>
 
 ---
@@ -41,7 +41,7 @@
 
 ### One-Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/gotify)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/gotify)
 
 Click the button above to deploy Gotify instantly on Railway.
 
@@ -194,3 +194,36 @@ This template deploys [Gotify](https://github.com/gotify/server), which is licen
 <p align="center">
   <sub>Built by <a href="https://github.com/INAPP-Mobile">INAPP-Mobile</a> — Deploy your own notification server in minutes.</sub>
 </p>
+
+
+# Deploy and Host
+
+Deploy this template on Railway with one click. Railway provides compute, TLS at the edge, and a public URL. The service restarts automatically on failures.
+
+## About Hosting
+
+This template runs as a single container with no external database dependencies. All data is stored using built-in storage — no PostgreSQL, Redis, or additional services required.
+
+## Why Deploy
+
+- **One-click deploy** — No configuration, no setup, just deploy
+- **Zero external dependencies** — Single container, no external database needed
+- **Automatic HTTPS** — Railway provisions TLS certificates automatically
+- **Self-healing** — Automatic restarts on failure
+- **Persistent storage** — Optional Railway volume for data persistence
+
+## Common Use Cases
+
+- Self-hosted service for personal or team use
+- Production deployment with zero maintenance overhead
+- Privacy-focused alternative to cloud-hosted solutions
+- Lightweight deployment on Railway's free tier
+
+## Dependencies for
+
+### Deployment Dependencies
+
+Gotify requires no external dependencies. It uses embedded SQLite for message and user storage by default.
+
+- [Railway Account](https://railway.app) — hosting platform
+- No external database, cache, or message queue required
