@@ -183,10 +183,6 @@ This template deploys [Gotify](https://github.com/gotify/server), which is licen
 
 ---
 
-<p align="center">
-  <sub>Built by <a href="https://github.com/INAPP-Mobile">INAPP-Mobile</a> — Deploy your own notification server in minutes.</sub>
-</p>
-
 
 # Deploy and Host
 
