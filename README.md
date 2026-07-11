@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./template-icon.svg" alt="Gotify" width="120" height="120">
+  <img src="https://raw.githubusercontent.com/INAPP-Mobile/railway-gotify/main/template-icon.svg" alt="Gotify" width="120" height="120">
   <h1 align="center">Gotify</h1>
   <p align="center">A self-hosted push notification server for sending & receiving messages.</p>
 </div>
