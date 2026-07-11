@@ -1,6 +1,11 @@
 FROM gotify/server:2.9.1
 
-# Configure Gotify to listen on 8080 (Railway's expected port)
+# Entrypoint wrapper sets GOTIFY_SERVER_PORT from Railway's $PORT at runtime
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+RUN chmod 755 /usr/local/bin/docker-entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+
+# Configure Gotify defaults (override at runtime via env vars)
 ENV GOTIFY_SERVER_PORT=8080
 ENV GOTIFY_SERVER_BINDADDRESS=0.0.0.0
 ENV GOTIFY_DEFAULTUSER_NAME=admin
@@ -16,7 +21,7 @@ EXPOSE 8080
 
 # Health check on the configured port
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-    CMD wget -qO- http://localhost:${GOTIFY_SERVER_PORT}/health || exit 1
+    CMD curl -fsS http://localhost:${GOTIFY_SERVER_PORT}/health || exit 1
 
 # Create data directory writable by non-root user before dropping privileges
 RUN mkdir -p /app/data && chown -R 1000:1000 /app/data
