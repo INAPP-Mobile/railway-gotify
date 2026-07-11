@@ -1,6 +1,7 @@
 FROM gotify/server:2.9.1
 
-# Entrypoint wrapper sets GOTIFY_SERVER_PORT from Railway's $PORT at runtime
+# Entrypoint wrapper: Railway injects $PORT at runtime + volume mounts arrive root-owned
+USER root
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod 755 /usr/local/bin/docker-entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
