@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="https://railway.com/new/template/gotify"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
+  <a href="https://railway.com/new/template/gotify-1"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
   <a href="https://github.com/gotify/server"><img src="https://img.shields.io/github/stars/gotify/server?style=for-the-badge&logo=github&label=GitHub" alt="GitHub Stars"></a>
   <a href="https://github.com/gotify/server/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gotify/server?style=for-the-badge" alt="License"></a>
 </p>
