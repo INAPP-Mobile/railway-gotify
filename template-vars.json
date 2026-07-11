@@ -1,9 +1,4 @@
 {
-  "GOTIFY_SERVER_PORT": {
-    "defaultValue": "8080",
-    "description": "Port Gotify listens on (default: 8080). Railway injects PORT for routing.",
-    "isOptional": true
-  },
   "GOTIFY_DEFAULTUSER_NAME": {
     "defaultValue": "admin",
     "description": "Default admin username for the Gotify web UI.",
