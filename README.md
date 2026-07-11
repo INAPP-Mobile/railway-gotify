@@ -16,14 +16,6 @@
 
 ---
 
-## 📸 Screenshots
-
-| Messages Timeline | Registered Applications | User Management |
-|:---:|:---:|:---:|
-| ![Timeline View](./assets/screenshot-timeline.png) | ![Apps View](./assets/screenshot-apps.png) | ![Users View](./assets/screenshot-users.png) |
-
-*Live demo at [gotify-production-5fcc.up.railway.app](https://gotify-production-5fcc.up.railway.app)*
-
 ---
 
 ## ✨ Features
