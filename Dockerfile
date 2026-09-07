@@ -1,4 +1,4 @@
-FROM gotify/server:2.9.1
+FROM gotify/server:3.1.0
 
 # Entrypoint wrapper: Railway injects $PORT at runtime + volume mounts arrive root-owned
 USER root
